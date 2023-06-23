@@ -63,7 +63,24 @@ namespace PresentationLayer
                 //dateReturnFormat = dateReturnFormat.Replace("/", "-");
                 DBconnection.msCommand.CommandText = @"INSERT INTO issued_drivers(driver_id, employee_id, date_of_issue, date_of_return) VALUES ('" + DriverID + "', '" + EmployeeID + "', '" + dateIssueFormat + "', '" + dateReturnFormat + "')";
                 DBconnection.msCommand.ExecuteNonQuery();
+                MessageBox.Show("Данные успешно отправлены");
             }
+            catch
+            {
+                MessageBox.Show("Request rejected");
+            }
+        }
+        static public void PutReturnIssueRequest()
+        {
+            try
+            {
+                DateTime now = DateTime.Now;
+                string currentDateFormat = now.ToString("yyyy-MM-dd HH:mm:ss");
+                DBconnection.msCommand.CommandText = @"UPDATE issued_drivers SET fact_return = '" + currentDateFormat + "', mark = 1 WHERE driver_id = '" + DriverID + "' and employee_id = '" + EmployeeID + "'";
+                DBconnection.msCommand.ExecuteNonQuery();
+                MessageBox.Show("Данные успешно получены");
+
+        }
             catch
             {
                 MessageBox.Show("Request rejected");

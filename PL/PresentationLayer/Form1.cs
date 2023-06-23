@@ -6,5 +6,17 @@ namespace PresentationLayer
         {
             InitializeComponent();
         }
+
+        private void toPostButton_Click(object sender, EventArgs e)
+        {
+            Post newForm = new Post();
+            newForm.Show();
+        }
+
+        private void toPutButton_Click(object sender, EventArgs e)
+        {
+            Put newForm = new Put();
+            newForm.Show();
+        }
     }
 }

@@ -28,12 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            toPostButton = new Button();
+            toPutButton = new Button();
+            toReportButton = new Button();
+            SuspendLayout();
+            // 
+            // toPostButton
+            // 
+            toPostButton.Location = new Point(307, 94);
+            toPostButton.Name = "toPostButton";
+            toPostButton.Size = new Size(150, 42);
+            toPostButton.TabIndex = 0;
+            toPostButton.Text = "Выдать накопитель";
+            toPostButton.UseVisualStyleBackColor = true;
+            toPostButton.Click += toPostButton_Click;
+            // 
+            // toPutButton
+            // 
+            toPutButton.Location = new Point(307, 160);
+            toPutButton.Name = "toPutButton";
+            toPutButton.Size = new Size(150, 42);
+            toPutButton.TabIndex = 1;
+            toPutButton.Text = "Принять накопитель";
+            toPutButton.UseVisualStyleBackColor = true;
+            toPutButton.Click += toPutButton_Click;
+            // 
+            // toReportButton
+            // 
+            toReportButton.Location = new Point(307, 307);
+            toReportButton.Name = "toReportButton";
+            toReportButton.Size = new Size(150, 42);
+            toReportButton.TabIndex = 2;
+            toReportButton.Text = "Построить отчет";
+            toReportButton.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(toReportButton);
+            Controls.Add(toPutButton);
+            Controls.Add(toPostButton);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button toPostButton;
+        private Button toPutButton;
+        private Button toReportButton;
     }
 }
