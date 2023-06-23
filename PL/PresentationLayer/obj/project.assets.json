@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chipu\\OneDrive\\Рабочий стол\\НПЦАП\\driversProject\\PresentationLayer\\PresentationLayer\\PresentationLayer.csproj",
+      "projectUniqueName": "C:\\Users\\chipu\\OneDrive\\Рабочий стол\\НПЦАП\\driversProject\\PL\\PresentationLayer\\PresentationLayer.csproj",
       "projectName": "PresentationLayer",
-      "projectPath": "C:\\Users\\chipu\\OneDrive\\Рабочий стол\\НПЦАП\\driversProject\\PresentationLayer\\PresentationLayer\\PresentationLayer.csproj",
+      "projectPath": "C:\\Users\\chipu\\OneDrive\\Рабочий стол\\НПЦАП\\driversProject\\PL\\PresentationLayer\\PresentationLayer.csproj",
       "packagesPath": "C:\\Users\\chipu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chipu\\OneDrive\\Рабочий стол\\НПЦАП\\driversProject\\PresentationLayer\\PresentationLayer\\obj\\",
+      "outputPath": "C:\\Users\\chipu\\OneDrive\\Рабочий стол\\НПЦАП\\driversProject\\PL\\PresentationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chipu\\AppData\\Roaming\\NuGet\\NuGet.Config",
