@@ -61,6 +61,7 @@
             toReportButton.TabIndex = 2;
             toReportButton.Text = "Построить отчет";
             toReportButton.UseVisualStyleBackColor = true;
+            toReportButton.Click += toReportButton_Click;
             // 
             // Form1
             // 

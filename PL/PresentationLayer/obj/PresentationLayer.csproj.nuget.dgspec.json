@@ -39,6 +39,16 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "FastReport.Compat": {
+              "target": "Package",
+              "version": "[2023.1.8, )"
+            },
+            "FastReport.Data.MySql": {
+              "target": "Package",
+              "version": "[2023.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

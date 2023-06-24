@@ -20,7 +20,7 @@ namespace PresentationLayer
                 if (result != null)
                 {
                     EmployeeID = Convert.ToInt32(result);
-                    MessageBox.Show(EmployeeID.ToString());
+                    //MessageBox.Show(EmployeeID.ToString());
                 }
                 else
                 {
@@ -41,7 +41,7 @@ namespace PresentationLayer
                 if (result != null)
                 {
                     DriverID = Convert.ToInt32(result);
-                    MessageBox.Show(DriverID.ToString());
+                    //MessageBox.Show(DriverID.ToString());
                 }
                 else
                 {

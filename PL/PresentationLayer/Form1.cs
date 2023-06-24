@@ -18,5 +18,11 @@ namespace PresentationLayer
             Put newForm = new Put();
             newForm.Show();
         }
+
+        private void toReportButton_Click(object sender, EventArgs e)
+        {
+            Report newForm = new Report();
+            newForm.Show();
+        }
     }
 }
