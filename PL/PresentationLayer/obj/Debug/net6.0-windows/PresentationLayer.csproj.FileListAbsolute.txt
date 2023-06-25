@@ -91,3 +91,5 @@ C:\Users\chipu\OneDrive\Рабочий стол\НПЦАП\driversProject\PL\Pre
 C:\Users\chipu\OneDrive\Рабочий стол\НПЦАП\driversProject\PL\PresentationLayer\bin\Debug\net6.0-windows\FastReport.Editor.dll
 C:\Users\chipu\OneDrive\Рабочий стол\НПЦАП\driversProject\PL\PresentationLayer\bin\Debug\net6.0-windows\FastReport.xml
 C:\Users\chipu\OneDrive\Рабочий стол\НПЦАП\driversProject\PL\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.Report.resources
+C:\Users\chipu\OneDrive\Рабочий стол\НПЦАП\driversProject\PL\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.EditDepartment.resources
+C:\Users\chipu\OneDrive\Рабочий стол\НПЦАП\driversProject\PL\PresentationLayer\obj\Debug\net6.0-windows\PresentationLayer.EditDriver.resources

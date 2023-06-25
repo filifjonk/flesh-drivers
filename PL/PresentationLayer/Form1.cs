@@ -24,5 +24,22 @@ namespace PresentationLayer
             Report newForm = new Report();
             newForm.Show();
         }
+
+        private void editDepartment_Click(object sender, EventArgs e)
+        {
+            EditDepartment editDepartment = new EditDepartment();
+            editDepartment.Show();
+        }
+
+        private void editDrivers_Click(object sender, EventArgs e)
+        {
+            EditDriver editDriver = new EditDriver();
+            editDriver.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
