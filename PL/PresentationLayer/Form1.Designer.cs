@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             toPostButton = new Button();
             toPutButton = new Button();
             toReportButton = new Button();
@@ -36,6 +37,7 @@
             label1 = new Label();
             editDrivers = new Button();
             editEmployees = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -126,6 +128,13 @@
             editEmployees.TabIndex = 7;
             editEmployees.Text = "Сотрудники";
             editEmployees.UseVisualStyleBackColor = true;
+            editEmployees.Click += editEmployees_Click;
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 600000;
+            timer1.Tick += timer1_Tick;
             // 
             // Form1
             // 
@@ -156,5 +165,6 @@
         private Label label1;
         private Button editDrivers;
         private Button editEmployees;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -1,4 +1,4 @@
-namespace PresentationLayer
+﻿namespace PresentationLayer
 {
     public partial class Form1 : Form
     {
@@ -40,6 +40,20 @@ namespace PresentationLayer
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void editEmployees_Click(object sender, EventArgs e)
+        {
+            EditEmployee editEmployee = new EditEmployee();
+            editEmployee.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DBconnection.ConnectionDB();
+            DateTime dt = DateTime.Now;
+            MessageBox.Show(dt.ToString());
+            Data.CheckDevices();
         }
     }
 }
